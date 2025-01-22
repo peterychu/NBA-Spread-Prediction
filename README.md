@@ -1,15 +1,11 @@
 # NBA-Spread-Prediction
 Bayesian Data Analysis Project To Predict NBA Game Spread
 
-# Using a Bayesian Hierarchical Model to predict
+The original document was written in Latex, and the equation translation to markdown has not worked out so. Will fix later
 
-# future NBA game spreads and try to generate a
+# Using a Bayesian Hierarchical Model to predict future NBA game spreads and try to generate a profit on sports betting
 
-# profit on sports betting
-
-## Peter Chu
-
-## November 2024
+# Peter Chu
 
 ## 1 Introduction
 
@@ -68,25 +64,10 @@ an additional$125. If you were to bet on OKC winning, you would need to
 correctly bet$145 to win$100. The general formula is as follows [2]:
 
 ```
-Profit for +XXX Odds =
+Profit for +XXX Odds = (Odds/100) × Bet Amount
 ```
 ```
-Odds
-100
-```
-```
-×Bet Amount
-```
-```
-Profit for -XXX Odds =
-```
-#### 100
-
-```
-∥Odds∥
-```
-```
-×Bet Amount
+Profit for -XXX Odds = (100 / |Odds|) × Bet Amount
 ```
 ## 2 Model creation
 
